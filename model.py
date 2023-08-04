@@ -56,13 +56,13 @@ def getLinks(artist_name, number):
 
 
 # client id, client secret, and grant type for spotify api access token
-client_id ='602549ec66af4e47aeabc02f756f53ff'
-client_secret ='e3f7c536999840349f84244978753173'
+client_id =''
+client_secret =''
 
 data = {
     'grant_type': 'client_credentials',
-    'client_id': '602549ec66af4e47aeabc02f756f53ff',
-    'client_secret': 'e3f7c536999840349f84244978753173',
+    'client_id': '',
+    'client_secret': '',
 }
 
 # code to generate refresh token to access spotify api
